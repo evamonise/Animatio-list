@@ -1,0 +1,51 @@
+body{
+  display: flex;
+  height: 100vh;
+  background-color: #b1a8acb9;
+  align-items: center;
+  justify-content: center;
+}
+#voltar{
+  display: flex;
+  position: absolute;
+  margin: 25px;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  background-color: rgb(145, 110, 130);
+  border-radius: 4px;
+}
+.quadrado11{
+  background-color: #f8a4df;
+  border: 1px solid #464545 ;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  animation-name: pulsar;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes pulsar {
+  0% {
+      transform: translate(-50%, -50%) rotate(0deg) scale(1);
+  }
+  50% {
+      transform: translate(-50%, -50%) rotate(180deg) scale(1.2);
+  }
+  100% {
+      transform: translate(-50%, -50%) rotate(360deg) scale(1);
+  }
+}
+
+#proxima{
+  display: flex;
+  color: rgb(0, 0, 0) ;
+  position: absolute;
+  top: 690px;
+  right: 65px;
+  background-color: rgb(145, 110, 130);
+  border-radius: 4px;
+  text-decoration: none;
+}

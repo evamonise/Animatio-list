@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #b1a8acb9;
+}
+#voltar{
+    display: flex;
+    position: absolute;
+    margin: 25px;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    background-color: rgb(145, 110, 130);
+    border-radius: 4px;
+}
+.quadrado5{
+    background-color: #f8a4df;
+    border: 1px solid #464545 ;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation-duration: 3s;
+    animation-name: mover;
+    animation-iteration-count: infinite;
+
+    
+}
+
+@keyframes mover {
+    
+    100%{
+        transform: rotate(45deg);
+    }
+}
+
+#proxima{
+    display: flex;
+    position: absolute;
+    top: 690px;
+    right: 65px;
+    background-color: rgb(145, 110, 130);
+    border-radius: 4px;
+    text-decoration: none;
+}
