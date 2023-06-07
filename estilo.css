@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    background-color: #b1a8ac;
+    flex-direction: column;
+    font-family: 'Lucida Sans Unicode';
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    font-size: 30px;
+}
+
+
+.botao{
+    display: flex;
+    border-radius: 4px;
+    height: 30px;
+    width: 40px;
+    margin: 3px;
+    padding: 5px 10px;
+    background-color: rgb(220, 93, 224);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.botao:hover{
+    background-color:  rgb(205, 145, 207);
+}

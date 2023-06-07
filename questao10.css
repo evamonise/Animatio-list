@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #b1a8acb9;
+    
+}
+#voltar{
+    display: flex;
+    position: absolute;
+    margin: 25px;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    background-color: rgb(145, 110, 130);
+    border-radius: 4px;
+}
+.logo10{
+    background-color: #f8a4df;
+    background-image: url(./programacao\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #464545;
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    border-radius: 5px;
+    position: relative;
+    animation-name: mover;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    transition: 900ms linear;
+
+}
+#proxima{
+    display: flex;
+    position: absolute;
+    top: 690px;
+    right: 65px;
+    background-color: rgb(145, 110, 130);
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+
+@keyframes mover {
+    0%{
+        right: 0px;
+        top: 0px;
+        height: 200px;
+        width: 200px;
+    }
+    100%{
+        right: 600px;
+        top: -250px;
+        height: 70px;
+        width: 70px;
+    }
+    
+}
+
+

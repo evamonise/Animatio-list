@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #b1a8acb9;
+}
+#voltar{
+    display: flex;
+    position: absolute;
+    margin: 25px;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    background-color: rgb(145, 110, 130);
+    border-radius: 4px;
+}
+.circulo14{
+    margin: 10px;
+    border: 1px solid #464545;
+    background-color: #ec7dcb;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.circulo14:hover{
+    height: 100px;
+    width: 200px;
+    border-radius: 0%;
+}
+
+#proxima{
+    display: flex;
+    position: absolute;
+    top: 690px;
+    right: 65px;
+    background-color: rgb(145, 110, 130);
+    border-radius: 4px;
+    text-decoration: none;
+}
+

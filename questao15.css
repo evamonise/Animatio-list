@@ -1,0 +1,61 @@
+body{
+  display: flex;
+  background-color: #b1a8acb9;
+  justify-content: center;
+  align-items: center;
+}
+#voltar{
+  display: flex;
+  position: absolute;
+  margin: 25px;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  background-color: rgb(145, 110, 130);
+  border-radius: 4px;
+}
+.circulo15{
+  margin: 10px;
+  border: 1px solid #464545;
+  background-color: #ec7dcb;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  animation:  mudar 4s infinite;
+}
+
+@keyframes mudar {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    top: 207px;
+    left: 580px;
+  }
+  50% {
+    top: 408px;
+    left: 0px;
+  }
+  75% {
+    top: 220px;
+    left: -580px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+
+ 
+}
+
+#proxima{
+  display: flex;
+  position: absolute;
+  top: 690px;
+  right: 65px;
+  background-color: rgb(145, 110, 130);
+  border-radius: 4px;
+  text-decoration: none;
+}
